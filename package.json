@@ -1,15 +1,21 @@
 {
-  "name": "numToBinaryJS",
+  "name": "number-to-binary-js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A function that converts a base 10 number to binary",
+  "main": "numberToBinary.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./src/numberToBinary.test.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "math",
+    "numbers",
+    "binary",
+    "unit test"
+  ],
+  "author": "Ronald Barloy",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.3.7",
     "mocha": "^10.2.0"
   }
 }
